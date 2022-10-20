@@ -1,0 +1,52 @@
+1. num + num = num
+2. num + string/obj = string -> ghép chuỗi
+3. num + true/fale (1/0)
+4. Phép trừ, tự động ép kiểu về num (arr, obj ko ép đc --> NaN)
+5. Phép chia/nhân cũng tự động ép kiểu về num (arr, obj ko ép đc --> NaN)
+6. %: chia lấy dư --> trả về số dư(tự động ép kiểu về num (arr, obj ko ép đc --> NaN))
+
+7. >,<, >=, <=: trả boolean
+8. =,==,===: gán / so sánh giá trị / so sánh về kiểu và giá trị
+==> có thể so sánh chuỗi, ko thể so sánh các kiểu dlieu khác nhau trừ string
+
+9. !: nghịch đảo
+10. !==: so sánh khác
+11. num1 += 5 : num1 = num1 + 5
+12. num1 -= 5 : num1 = num1 - 5
+13. num1 *= 5 : num1 = num1 * 5
+14. num1 /= 5 : num1 = num1 / 5
+15. ++/--num: log ra ++num (cộng trc dùng sau)
+16. num++/--: log ra num cũ trước rồi cộng sau (dùng num trc, cộng sau)
+17. **: mũ 
+18. **0.5: căn bậc 2
+19. 9** (4/2): 9 mũ 4 căn bậc 2
+
+
+20. Toán tử 3 ngôi:
+            Điều kiện ? kết quả nếu đúng : kết quả nếu sai
+
+21. If / Else
+    if(dk){
+        code đúng
+    }
+    else{
+        code sai
+    }
+============================================================================================
+    if(dk){
+        code đúng           chạy khi đk true
+    }
+    else if(dk2){
+        code đúng           chạy khi dk1 false, dk2 true
+    }
+    else{
+        code sai            false hết
+    }
+
+    true khi số khác 0, string, [], {}
+    false khi số bằng 0, '', undefined, NaN, null
+    ==================================================================================
+
+    22. &&: và (true nếu 2 vế đúng | false nếu 1 trong 2 vế sai)
+    23. ||: hoặc (true nếu 1 vế đúng | false nếu tất cả cùng sai)
+    

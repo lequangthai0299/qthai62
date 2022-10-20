@@ -1,0 +1,3 @@
+var today = new Date();                         tạo ra Date obj của thời điểm hiện tại
+new Date(dateString)                            tạo ra Date obj của thời điểm chỉ định
+                                                định dạng: mm/dd/yyyy --- yyyy/mm/dd

@@ -1,0 +1,63 @@
+1. console.log()
+
+2. Khai báo string nhiều dòng sử dụng  ``
+
+3. ${logic} : chỉ dùng đc trong dấu ``, xử lý logic, thêm logic vào string
+
+4. Object: dữ liệu về 1 đối tượng cụ thể
+                    eg: var Obj = {
+                        key: value,
+                        key: 'value',
+                    }
+
+5. Truy vấn data trong Obj: 
+        obj.key: cố định
+
+        obj[key]: linh hoạt
+        var tk = 'js';
+        console.log(t[tk]['ks'])
+        .: tìm kiếm trong obj
+        []: tìm kiếm ngoài obj
+
+
+6. Thay đổi, thêm, ghi đè giá trị:
+        obj.key =  value
+        obj[key] = value
+
+
+7. Xóa data trong Obj
+        delete obj.key
+
+8. Array
+        danh sách các đối tượng
+        chứa number, obj, string,... (thường chứa 1 loại data nhất quán)
+        var Arr = [val 1, val 2, val 3,...]
+
+
+9. Truy vấn data trong Array
+        array[index]
+        index: bắt đầu từ 0
+        array[index][index]
+        array[index].key
+
+10. 
+
+        array[index] = value: ghi đè, thêm
+        delete array[index]: xóa
+
+
+11. typeof value : kiểu dữ liệu của value
+
+12. Kiểm tra Arr: Array.isArray(value)
+
+13. array.length: trả về độ dài array, đếm từ 1, thay đổi độ dài array
+
+14. phần từ cuối: arr.length-1
+        console.log(list[0], list[list.length-1])
+
+
+15. Boolean : true/false
+
+16. undefine: kbao biến mà k có gtri
+    null: rỗng
+    NaN: số ko dùng đc

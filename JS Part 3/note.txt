@@ -1,0 +1,59 @@
+1.      switch (check)                                  thực thi code dựa trên kết quả check
+                                                        check khớp value nào thì code value đó chạy
+                                                        check k khớp thì chạy default
+                                                        kết thúc case bằng break
+        case value1:
+        ...code 
+        break;
+
+        case value 2:
+        ...code
+        break;
+
+        default:
+        ...code
+
+2. While: 
+        while (dk){                         nếu đk đúng thì thực thi code đến khi sai thì thôi
+                                            khi đk sai thì vong lặp kthuc
+            //code
+        }
+
+3. break:       kết thúc vòng lặp
+
+4. continue:    kết thúc code của vòng lặp hiện tại
+
+5.  do{code}    code thực thi trc r mới kiểm tra điều kiện
+    while(dk)
+
+6. Vòng lặp cần các yếu tố:
+        start:  điểm xuất phát
+        stop:   điểm kết thúc
+        move:   tốc độ, hướng di chuyển    
+
+7. for(strat, stop, move){
+    code
+}
+
+8. Object.keys(dataObject) :    trả về array chứa tất cả key trong dataObject
+console.log (   list[i] ,   obj[list[i]]);
+                  key   ,      value
+
+9. for( var key in Object) : key:           key trong Object
+    console.log(key, obj[key])              array thì log ra index
+
+
+10. for(var value of array){                value trong array 
+    console.log(value);
+}
+
+
+11. Function :      lưu trữ logic, tái sd nhiều lần
+    function test (input){
+        code xử lý logic
+        trả kết quả
+    }
+
+    arguments:      biến chứa tất cả các input của function
+
+    return:         trả kết quả đầu ra của function & kết thúc function  

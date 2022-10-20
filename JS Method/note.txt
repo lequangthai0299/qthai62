@@ -1,0 +1,70 @@
+1. [...array]     liệt kê các phần tử trong array     [...arr1, ...arr2]
+2. [...object]    liệt kê các phần tử trong object    {...obj1, ...obj2}
+
+3. push:        chèn data vào cuối arr
+4. pop:         xóa phần tử cuối cũng
+
+5. unshift:     chèn data lên đầu arr
+6. shift:       xóa data đầu trong arr
+
+7.  splice:      thêm, bớt phần tử trong arr
+    splice(start, delete, ...add )
+
+8. slice(start, stop):  copy arr tử start đến stop (copy 1 khoảng)
+9. includes(value)      kiểm tra sự tồn tại cảu value trong arr
+
+10.indexOf(value, vtri):        trả về vị trí phần tử đầu tiên === value
+                                trả về -1 nếu k có
+
+11. lastIndexOf(value, vtri):   trả về vị trí phần tử cuối === value
+                                trả về -1 nếu k có
+
+12. join(seperator)         tạo ra string bằng cách gộp các phần tử trong arr
+                            seperator:  ký tự 
+
+13. reverse()               đảo ngược trình tự trong arr
+
+14. filter:                 trả về arr mới chứa các phần tử thỏa mãn điều kiện lọc
+    arr.filter(function(value, index)){
+        return true;    giữ lại
+        return false:   loại bỏ
+    }
+
+15. map
+
+var newArr = arr.map(function(value, index)){
+    kết quả return được lưu trữ trong newArr
+    dùng để update data, slg phần tử k thay đổi
+    ko ảnh hưởng đến data gốc
+
+
+16. find 
+var check =  array.find( function (value){}
+                    trả về data đầu tiên thỏa mãn đk tìm kiếm
+                    ko tìm đc trả về undefined
+                    return true thì trả về data
+                    return false thì tìm kiếm tiếp
+
+17. findIndex
+                    trả về vị trí data đầu tiên thỏa mãn
+                    ko tìm đc trả về -1
+                    return true trả về index       
+
+18. reduce          thường để dùng tính tổng
+var sum = arr.reduce(function(total, value, index){
+                    total: kết quả tính tổng lũy kế
+                    value: giá trị phần tử hiện tại
+                    index: vị trí
+                    init:   giá trị khởi tạo của total
+                    kết quả return được cập nhật vào total
+                    sum : nhận về kết quả cuối cùng của total
+}, init)
+
+19. sort            
+sort(function(after, before){
+                    after: phần tử đứng sau
+                    before: phần tử đứng trước
+                    return âm: đảo chỗ
+                    return 0,dương: giữ nguyên
+                    
+})
